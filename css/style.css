@@ -1,4 +1,17 @@
 /* HEADER */
 nav img {
-    margin-top: auto;
+    float: right;
+    border-radius: 50px;
+    width: 200px;
+}
+header{
+    background-image: url("../images/Image2.png");
+    width: 1300px;
+    height: 200px;
+}
+
+#contact {
+    color: burlywood;
+    padding: 50px;
+    width: auto;
 }
