@@ -1,35 +1,44 @@
-body {
+body 
+{
     margin-left: auto;
     margin-right: auto;
     width: 1300px; /* largeur obligatoire pour être centré */
-  }
+}
 /* HEADER */
-header img {
+header img 
+{
     float: right;
     border-radius: 50px;
     width: 200px;
 }
-header{
+header
+{
     background-image: url("../images/Image2.png");
     width: 1300px;
     height: 200px;
-    position: fixed;
+}
+header h2,h3 
+{
+    color: burlywood;
+    padding: 20px;
+}
+nav
+{
+    display: inline-block;
+    width: 400px;
+    border: 1px solid black;
+    vertical-align: top;
 }
 
-#contact {
-    color: burlywood;
-    padding: 50px;
-    width: auto;
+#parcour
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
 }
-#filters {
-    border: 1px solid black;
-    width: 300px;
-}
-#articles {
-    border: 1px solid black;
-    width: 300px;
-}
-#lodging h2 {
-    font-size: 22px;
-    font-weight: 700;   
+#aside
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
 }
