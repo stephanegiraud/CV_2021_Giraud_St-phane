@@ -4,7 +4,7 @@ body {
     width: 1300px; /* largeur obligatoire pour être centré */
   }
 /* HEADER */
-nav img {
+header img {
     float: right;
     border-radius: 50px;
     width: 200px;
@@ -24,4 +24,12 @@ header{
 #filters {
     border: 1px solid black;
     width: 300px;
+}
+#articles {
+    border: 1px solid black;
+    width: 300px;
+}
+#lodging h2 {
+    font-size: 22px;
+    font-weight: 700;   
 }
