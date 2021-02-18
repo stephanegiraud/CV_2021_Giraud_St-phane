@@ -26,24 +26,16 @@ nav
 {
     display: inline-block;
     width: 30%;
-    height: 300px;
+    min-width:300px;
     border: 2px solid black;
     vertical-align: top;
 }
-#parcour
+section aside
 {
-    font-size: 17px;
-    padding-bottom: initial;
+    display: inline-block;
     width: 30%;
-    height: 300px;
-    display: inline-block;   
+    min-width: 300px;
     border: 2px solid black;
+    vertical-align: top;
 }
-#aside
-{
-    font-size: 18px;
-    width: 30%;
-    height: 300px;
-    display: inline-block;   
-    border: 2px solid black;
-}
+
