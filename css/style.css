@@ -2,7 +2,8 @@ body
 {
     margin-left: auto;
     margin-right: auto;
-    width: 1300px; /* largeur obligatoire pour être centré */
+    width: 1300px;
+    background-color: cadetblue;
 }
 /* HEADER */
 header img 
@@ -22,26 +23,27 @@ header h2,h3
     color: burlywood;
     padding: 20px;
 }
-nav ul
-{
-    vertical-align: top;
-    width: 30%;
-    margin-right: 2%;
-    border: 2px solid black;
-}
-section article
+section
 {
     display: inline-block;
     vertical-align: top;
     width: 30%;
     margin-right: 2%;
-    border: 2px solid black;
+
 }
-section aside
+section aside,article
 {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin-right: 2%;
-    border: 2px solid black;
+    text-align: left;
+    font-size: 20px;
+}
+footer
+{
+    background-image: url("../images/Image3.png");
+    width: 1300px;
+    height: 100px;
+    color: blanchedalmond;
+}
+footer p
+{
+    font-size: 20px;
 }
