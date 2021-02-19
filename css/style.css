@@ -47,3 +47,24 @@ footer p
 {
     font-size: 20px;
 }
+@media all and (max-width: 1300px)
+{
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+font-language-override: ;
+{
+    width: auto;
+}
+
+}
